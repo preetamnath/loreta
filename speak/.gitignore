@@ -1,0 +1,14 @@
+.DS_Store
+build/
+*.xcuserstate
+xcuserdata/
+app/LoretaSpeak.xcodeproj/xcuserdata/
+app/LoretaSpeak.xcodeproj/project.xcworkspace/xcuserdata/
+AGENTS.md
+CLAUDE.md
+PLAN.md
+PRODUCT.md
+research/
+samples/
+scripts/llm-cleanup-eval.swift
+scripts/llm-cleanup-prompt-ab.swift

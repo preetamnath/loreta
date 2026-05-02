@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 100;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A5E7B1F2CC7A00100AA0001 /* LoretaSpeakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B162CC7A00100AA0001 /* LoretaSpeakApp.swift */; };
+		2A5E7B202CC7A00100AA0001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B172CC7A00100AA0001 /* AppDelegate.swift */; };
+		2A5E7B212CC7A00100AA0001 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B182CC7A00100AA0001 /* MenuBarController.swift */; };
+		2A5E7B222CC7A00100AA0001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B192CC7A00100AA0001 /* SettingsView.swift */; };
+		2A5E7B232CC7A00100AA0001 /* RecordingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B1A2CC7A00100AA0001 /* RecordingPanelView.swift */; };
+		2A5E7B2D2CC7B00100AA0001 /* RecordingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B2C2CC7B00100AA0001 /* RecordingState.swift */; };
+		2A5E7B2F2CC7B00100AA0001 /* GlobalHotKeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B2E2CC7B00100AA0001 /* GlobalHotKeyService.swift */; };
+		2A5E7B312CC7C00100AA0001 /* MicrophoneRecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B302CC7C00100AA0001 /* MicrophoneRecordingService.swift */; };
+		2A5E7B332CC7C00100AA0001 /* LocalHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B322CC7C00100AA0001 /* LocalHistoryStore.swift */; };
+		2A5E7B352CC7D00100AA0001 /* LocalSpeechTranscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B342CC7D00100AA0001 /* LocalSpeechTranscriptionService.swift */; };
+		2A5E7B412CC7E00100AA0001 /* TextInsertionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B402CC7E00100AA0001 /* TextInsertionService.swift */; };
+		2A5E7B432CC7F00100AA0001 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B422CC7F00100AA0001 /* SettingsStore.swift */; };
+		2A5E7B452CC8000100AA0001 /* LLMTransformationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B442CC8000100AA0001 /* LLMTransformationService.swift */; };
+		2A5E7B472CC8100100AA0001 /* SystemOutputSuppressionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B462CC8100100AA0001 /* SystemOutputSuppressionService.swift */; };
+		2A5E7B492CC8200100AA0001 /* DictationPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B482CC8200100AA0001 /* DictationPhase.swift */; };
+		2A5E7B4B2CC8200100AA0001 /* RecordingPanelPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B4A2CC8200100AA0001 /* RecordingPanelPresentation.swift */; };
+		2A5E7B4D2CC8200100AA0001 /* RecordingPanelHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7B4C2CC8200100AA0001 /* RecordingPanelHost.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A5E7B112CC7A00100AA0001 /* LoretaSpeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoretaSpeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5E7B162CC7A00100AA0001 /* LoretaSpeakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoretaSpeakApp.swift; sourceTree = "<group>"; };
+		2A5E7B172CC7A00100AA0001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A5E7B182CC7A00100AA0001 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		2A5E7B192CC7A00100AA0001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2A5E7B1A2CC7A00100AA0001 /* RecordingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingPanelView.swift; sourceTree = "<group>"; };
+		2A5E7B1B2CC7A00100AA0001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5E7B2C2CC7B00100AA0001 /* RecordingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingState.swift; sourceTree = "<group>"; };
+		2A5E7B2E2CC7B00100AA0001 /* GlobalHotKeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotKeyService.swift; sourceTree = "<group>"; };
+		2A5E7B302CC7C00100AA0001 /* MicrophoneRecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneRecordingService.swift; sourceTree = "<group>"; };
+		2A5E7B322CC7C00100AA0001 /* LocalHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalHistoryStore.swift; sourceTree = "<group>"; };
+		2A5E7B342CC7D00100AA0001 /* LocalSpeechTranscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSpeechTranscriptionService.swift; sourceTree = "<group>"; };
+		2A5E7B402CC7E00100AA0001 /* TextInsertionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInsertionService.swift; sourceTree = "<group>"; };
+		2A5E7B422CC7F00100AA0001 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		2A5E7B442CC8000100AA0001 /* LLMTransformationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMTransformationService.swift; sourceTree = "<group>"; };
+		2A5E7B462CC8100100AA0001 /* SystemOutputSuppressionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemOutputSuppressionService.swift; sourceTree = "<group>"; };
+		2A5E7B482CC8200100AA0001 /* DictationPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationPhase.swift; sourceTree = "<group>"; };
+		2A5E7B4A2CC8200100AA0001 /* RecordingPanelPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingPanelPresentation.swift; sourceTree = "<group>"; };
+		2A5E7B4C2CC8200100AA0001 /* RecordingPanelHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingPanelHost.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A5E7B0E2CC7A00100AA0001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A5E7B072CC7A00100AA0001 = {
+			isa = PBXGroup;
+			children = (
+				2A5E7B152CC7A00100AA0001 /* LoretaSpeak */,
+				2A5E7B122CC7A00100AA0001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A5E7B122CC7A00100AA0001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A5E7B112CC7A00100AA0001 /* LoretaSpeak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A5E7B152CC7A00100AA0001 /* LoretaSpeak */ = {
+			isa = PBXGroup;
+			children = (
+				2A5E7B162CC7A00100AA0001 /* LoretaSpeakApp.swift */,
+				2A5E7B172CC7A00100AA0001 /* AppDelegate.swift */,
+				2A5E7B2C2CC7B00100AA0001 /* RecordingState.swift */,
+				2A5E7B302CC7C00100AA0001 /* MicrophoneRecordingService.swift */,
+				2A5E7B322CC7C00100AA0001 /* LocalHistoryStore.swift */,
+				2A5E7B342CC7D00100AA0001 /* LocalSpeechTranscriptionService.swift */,
+				2A5E7B442CC8000100AA0001 /* LLMTransformationService.swift */,
+				2A5E7B402CC7E00100AA0001 /* TextInsertionService.swift */,
+				2A5E7B462CC8100100AA0001 /* SystemOutputSuppressionService.swift */,
+				2A5E7B482CC8200100AA0001 /* DictationPhase.swift */,
+				2A5E7B2E2CC7B00100AA0001 /* GlobalHotKeyService.swift */,
+				2A5E7B182CC7A00100AA0001 /* MenuBarController.swift */,
+				2A5E7B4C2CC8200100AA0001 /* RecordingPanelHost.swift */,
+				2A5E7B4A2CC8200100AA0001 /* RecordingPanelPresentation.swift */,
+				2A5E7B422CC7F00100AA0001 /* SettingsStore.swift */,
+				2A5E7B192CC7A00100AA0001 /* SettingsView.swift */,
+				2A5E7B1A2CC7A00100AA0001 /* RecordingPanelView.swift */,
+				2A5E7B1B2CC7A00100AA0001 /* Info.plist */,
+			);
+			path = LoretaSpeak;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A5E7B102CC7A00100AA0001 /* LoretaSpeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5E7B2B2CC7A00100AA0001 /* Build configuration list for PBXNativeTarget "LoretaSpeak" */;
+			buildPhases = (
+				2A5E7B0D2CC7A00100AA0001 /* Sources */,
+				2A5E7B0E2CC7A00100AA0001 /* Frameworks */,
+				2A5E7B0F2CC7A00100AA0001 /* Resources */,
+			);
+			buildRules = (
+			);
+			name = LoretaSpeak;
+			productName = LoretaSpeak;
+			productReference = 2A5E7B112CC7A00100AA0001 /* LoretaSpeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A5E7B082CC7A00100AA0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					2A5E7B102CC7A00100AA0001 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2A5E7B0B2CC7A00100AA0001 /* Build configuration list for PBXProject "LoretaSpeak" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A5E7B072CC7A00100AA0001;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 100;
+			productRefGroup = 2A5E7B122CC7A00100AA0001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A5E7B102CC7A00100AA0001 /* LoretaSpeak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A5E7B0F2CC7A00100AA0001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A5E7B0D2CC7A00100AA0001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				2A5E7B202CC7A00100AA0001 /* AppDelegate.swift in Sources */,
+				2A5E7B492CC8200100AA0001 /* DictationPhase.swift in Sources */,
+				2A5E7B2F2CC7B00100AA0001 /* GlobalHotKeyService.swift in Sources */,
+				2A5E7B332CC7C00100AA0001 /* LocalHistoryStore.swift in Sources */,
+				2A5E7B352CC7D00100AA0001 /* LocalSpeechTranscriptionService.swift in Sources */,
+				2A5E7B212CC7A00100AA0001 /* MenuBarController.swift in Sources */,
+				2A5E7B312CC7C00100AA0001 /* MicrophoneRecordingService.swift in Sources */,
+				2A5E7B4D2CC8200100AA0001 /* RecordingPanelHost.swift in Sources */,
+				2A5E7B232CC7A00100AA0001 /* RecordingPanelView.swift in Sources */,
+				2A5E7B4B2CC8200100AA0001 /* RecordingPanelPresentation.swift in Sources */,
+				2A5E7B2D2CC7B00100AA0001 /* RecordingState.swift in Sources */,
+				2A5E7B432CC7F00100AA0001 /* SettingsStore.swift in Sources */,
+				2A5E7B452CC8000100AA0001 /* LLMTransformationService.swift in Sources */,
+				2A5E7B222CC7A00100AA0001 /* SettingsView.swift in Sources */,
+				2A5E7B472CC8100100AA0001 /* SystemOutputSuppressionService.swift in Sources */,
+				2A5E7B412CC7E00100AA0001 /* TextInsertionService.swift in Sources */,
+				2A5E7B1F2CC7A00100AA0001 /* LoretaSpeakApp.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A5E7B242CC7A00100AA0001 /* Debug configuration for PBXProject "LoretaSpeak" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A5E7B252CC7A00100AA0001 /* Release configuration for PBXProject "LoretaSpeak" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A5E7B292CC7A00100AA0001 /* Debug configuration for PBXNativeTarget "LoretaSpeak" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DN4GZ25K7G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LoretaSpeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loreta.speak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		2A5E7B2A2CC7A00100AA0001 /* Release configuration for PBXNativeTarget "LoretaSpeak" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DN4GZ25K7G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LoretaSpeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loreta.speak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A5E7B0B2CC7A00100AA0001 /* Build configuration list for PBXProject "LoretaSpeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5E7B242CC7A00100AA0001 /* Debug configuration for PBXProject "LoretaSpeak" */,
+				2A5E7B252CC7A00100AA0001 /* Release configuration for PBXProject "LoretaSpeak" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		2A5E7B2B2CC7A00100AA0001 /* Build configuration list for PBXNativeTarget "LoretaSpeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5E7B292CC7A00100AA0001 /* Debug configuration for PBXNativeTarget "LoretaSpeak" */,
+				2A5E7B2A2CC7A00100AA0001 /* Release configuration for PBXNativeTarget "LoretaSpeak" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A5E7B082CC7A00100AA0001 /* Project object */;
+}
